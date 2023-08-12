@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="DreamJl.css">
+  <title>Dream Journal - My Blog</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    /* Gaya umum */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Gaya header */
+    header {
+    background-image: linear-gradient( 63.1deg,  rgba(5,23,111,1) 16.4%, rgba(24,95,240,1) 64.5% );
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    /* Gaya konten */
+    .container {
+      padding: 40px 0;
+    }
+
+    /* Gaya footer */
+    footer {
+      background-image: linear-gradient( 63.1deg,  rgba(5,23,111,1) 16.4%, rgba(24,95,240,1) 64.5% );
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <h1>Dream Journal</h1>
+  <p>Tulis rekaman mimpi Anda dan jelajahi pikiran alam bawah sadar Anda.</p>
+  </header>
+  <main>
+    <div class="container">
+      <h2>Your Dream Entries:</h2>
+      <p>Tulis ceita mimpi anda disini:</p>
+      <form>
+        <div class="mb-3">
+          <label for="dreamEntry" class="form-label">Dream Entry</label>
+          <textarea class="form-control" id="dreamEntry" name="dreamEntry" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Blog</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

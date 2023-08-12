@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #00DBDE;
+background-image: -webkit-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -moz-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -o-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-color: #343a40;
+  color: white;
+}
+
+.back-link {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  background-color: #fff;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.post-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: #666;
+}
+
+.post-date {
+  font-weight: bold;
+}
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.post-content {
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #FFDEE9;
+background-image: -webkit-linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+background-image: -moz-linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+background-image: -o-linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+}

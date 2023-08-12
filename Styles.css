@@ -1,0 +1,124 @@
+/* Styles.css */
+
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  	background-color: #00DBDE;
+background-image: -webkit-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -moz-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -o-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+/* Gaya header */
+header {
+  position: relative;
+  background-color: #FF3CAC;
+background-image: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+background-image: -moz-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+background-image: -o-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+/* Gaya carousel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Gaya main content */
+main {
+  padding: 40px 0;
+}
+
+/* Gaya latest posts */
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Gaya footer */
+footer {
+  background-color: #FF3CAC;
+background-image: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+background-image: -moz-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+background-image: -o-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  color: #333;
+}
+
+/* Gaya tombol */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Styles.css */
+
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Gaya header */
+header {
+  position: relative;
+}
+
+/* Gaya navbar dengan gradien */
+.navbar {
+  background-color: #e3f2fd;
+}
+
+/* Gaya carousel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Gaya main content */
+main {
+  padding: 40px 0;
+}
+
+/* Gaya latest posts */
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Gaya footer */
+footer {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Gaya tombol */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

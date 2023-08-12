@@ -1,0 +1,58 @@
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+background-image: linear-gradient( 181deg,  rgba(225,109,245,1) 6.9%, rgba(78,248,231,1) 112.8% );
+
+/* Gaya header */
+header {
+ background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Gaya konten */
+.container {
+  padding: 40px 0;
+}
+
+/* Gaya footer */
+footer {
+background-image: linear-gradient( 86.3deg,  rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6% );
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Gaya kotak pojok bawah */
+.floating-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.floating-box h3 {
+  margin-top: 0;
+}
+
+.floating-box form {
+  margin-top: 10px;
+}
+
+.floating-box label {
+  font-weight: bold;
+}
+
+.floating-box textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.floating-box button {
+  margin-top: 10px;
+}

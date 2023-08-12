@@ -1,0 +1,72 @@
+/* Custom CSS */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+background-color: #00DBDE;
+background-image: -webkit-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -moz-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -o-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+;
+
+.navbar {
+  margin-bottom: 30px;
+   padding: 20px;
+ background-color: #00DBDE;
+background-image: -webkit-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -moz-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -o-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-image: radial-gradient( circle 344px at 1.4% 0%,  rgba(242,185,252,1) 19.3%, rgba(250,254,190,1) 80.7% );
+  border-color: #0056b3;
+}
+
+footer {
+  background-color: #00DBDE;
+background-image: -webkit-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -moz-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: -o-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container {
+ background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+  padding: 20px;
+}
+
+.container form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
+}
